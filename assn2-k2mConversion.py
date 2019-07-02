@@ -3,8 +3,10 @@
 
 def k2mConversion():
     print("This program converts kilometers to miles.") #prints a message
+    
     km = float(input("What is the distance in kilometers? ")) #asks the user for input; 'float' allows for decimals
     miles = km * 0.62 #conversion formula
+    
     print("The distance is", str(miles), "miles.") #prints the result
 
 def main():
