@@ -233,5 +233,13 @@ def main():
     greet = Text(Point(182,75), "Merry \nChristmas!")
     greet.setSize(12)
     greet.draw(win)
+    
+# asks for user input so the window remains open
+    # after program is run from file
+    message = Text(Point(210,15), "Click to close.")
+    message.setSize(10)
+    message.draw(win)
+    win.getMouse()
+    win.close()
 
 main()
